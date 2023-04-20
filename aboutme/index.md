@@ -10,3 +10,7 @@ My name is Aryaman Goel. I'm currently and undergrad at Indian Institute of Tech
 
 [Here's](/cool.md) a list of stuff which is intresting to me.
 
+[Here's](/free.md) what I love to do in free time.
+
+
+
