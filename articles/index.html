@@ -8,7 +8,7 @@ subtitle: Expositions into science
 <a href = "{{'/articles/list' | relative_url}}" class="blog-button"><button class="button blog-button-unactive">List</button></a> 
 </div>
 <div class="posts-list">
-    {% for post in site.articles.posts %}
+    {% for post in site.categories.articles.posts %}
       {% if post.blog-category contains 'article' %}
       <article class="post-preview">
       <a href="{{ post.url | relative_url }}">
