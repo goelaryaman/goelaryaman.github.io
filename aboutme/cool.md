@@ -11,6 +11,7 @@ While at the time of write this, I am fairly new to GR, a few resources that I f
 4. Veritasium's video on [Godel's Incompleteness Theorem](https://youtu.be/HeQX2HjkcNo)
 
 * ### **Linguistics**
+1. [This](https://youtu.be/kwYxHPXIaao) video on deciphering the Indus Valley Script. 
 
 * ### **Misc**
 1. [This](https://youtu.be/-mu780uB7mI) video by exbur1a.
