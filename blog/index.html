@@ -8,7 +8,7 @@ subtitle: Mundane musings
 <a href = "{{'/blog/list' | relative_url}}" class="blog-button"><button class="button blog-button-unactive">List</button></a> 
 </div>
 <div class="posts-list">
-    {% for post in site.blog.posts %}
+    {% for post in site.categories.blog.posts %}
       {% if post.blog-category contains 'blog' %}
       <article class="post-preview">
       <a href="{{ post.url | relative_url }}">
