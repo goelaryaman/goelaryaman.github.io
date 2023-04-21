@@ -10,7 +10,7 @@ subtitle: Mundane musings
 </br>
 <ul class="posts">
 
-	  {% for post in site.posts %}
+	  {% for post in site.blog.posts %}
 	  	{% if post.blog-category contains 'blog' %}
 	    	<li><span>{{ post.date | date: "%b %d, %Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	    {% endif %}
