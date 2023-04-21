@@ -22,6 +22,7 @@ author: Aryaman
 navbar-links:
   About Me: "aboutme"
   Blog: /blog/
+  Articles: /articles/
 
   #Resources:
     #- Beautiful Jekyll: "https://beautifuljekyll.com"
