@@ -10,7 +10,7 @@ subtitle: Expositions into science
 </br>
 <ul class="posts">
 
-	  {% for post in site.categories.articles.posts %}
+	  {% for post in site.posts %}
 	  	{% if post.blog-category contains 'article' %}
 	    	<li><span>{{ post.date | date: "%b %d, %Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	    {% endif %}
