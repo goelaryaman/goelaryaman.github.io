@@ -4,14 +4,14 @@ title: Blog
 subtitle: Expositions into science
 ---
 <div class="text-center">
-<a href = "{{'/articles' | relative_url}}" class="blog-button"><button class="button blog-button-unactive">Posts</button></a> 
+<a href = "{{'/blog' | relative_url}}" class="blog-button"><button class="button blog-button-unactive">Posts</button></a> 
 <button class="button blog-button-active">List</button> 
 </div>
 </br>
 <ul class="posts">
 
 	  {% for post in site.posts %}
-	  	{% if post.blog-category contains 'articles' %}
+	  	{% if post.blog-category contains 'blog' %}
 	    	<li><span>{{ post.date | date: "%b %d, %Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	    {% endif %}
 	  {% endfor %}
