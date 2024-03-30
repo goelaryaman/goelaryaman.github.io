@@ -1,7 +1,7 @@
 Hello there, this is going to a page where I link stuff I found intresting/helpful.
 
 * ### **General Relativity and Cosmology**
-While at the time of write this, I am fairly new to GR, a few resources that I feel might help:
+At the time of writing, I was fairly new to GR, a few resources that I feel might help:
 1. [ViaScience's](https://youtube.com/playlist?list=PLF56602BAC693237E) beautiful introduction to relativity.  The fun part is that you won't require too much of very advanced mathematics!
 
 * ### **Mathematics**
