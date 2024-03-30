@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: *Mais je ne suis qu’un déconneur*
+subtitle: Mais je ne suis qu’un déconneur
 ---
 
 My name is Aryaman Goel. I'm currently and undergrad at Indian Institute of Technology, pursing a BS in Physics. I'm passionate about the sciences, and I love learning. I am also passionate about quizzing.
