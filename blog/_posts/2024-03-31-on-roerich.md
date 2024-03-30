@@ -10,4 +10,4 @@ But this is not about them, this is about a certain Riya Kashive (ill add her bl
 So it won't be very refined, and might be riddled with typos, but I promise better work next time.
 
 ### Tryst with Roerich
-It was July '22, and I went to Allahabad Museum. Thought to check out the art gallery, like any other pretentious teenager; didn't understand the nuances of most of the artworks displayed there.
+It was July '22, and I went to Allahabad Museum. Thought to check out the art gallery, like any other pretentious teenager; didn't understand the nuances of most of the artworks displayed there, *just like any other pretentious teenager* but then I saw a Roerich painting, and I was transfixed! I 
