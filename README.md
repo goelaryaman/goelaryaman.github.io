@@ -1,6 +1,6 @@
-# muan.co 
 
-Code for https://muan.co/.
+
+Code for goelaryaman.github.io, and inspired from muan.co 
 
 ## Technology
 
