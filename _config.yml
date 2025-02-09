@@ -6,13 +6,13 @@ timezone:         Asia/Kolkata
 sass:
   sass_dir: assets
   style: :compressed
-collections:
-  notes:
-    output: true
-  pages:
-    output: true
-  stories:
-    output: true
+#collections:
+#  notes:
+#    output: true
+#  pages:
+#    output: true
+#  stories:
+#    output: true
 i18n:
   en-US:
     accessibility: Accessibility statement
