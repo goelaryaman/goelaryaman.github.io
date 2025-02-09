@@ -1,6 +1,6 @@
 
 
-Code for goelaryaman.github.io, and inspired from muan.co 
+Code for goelaryaman.github.io, and taken from muan.co 
 
 ## Technology
 
