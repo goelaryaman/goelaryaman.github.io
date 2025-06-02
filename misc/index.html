@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- …your meta tags, title, CSS link, etc. … -->
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <!-- Placeholder where header will go -->
+  <div id="site-header"></div>
+
+  <script>
+    // Simple JavaScript include for static HTML sites:
+    fetch('/header.html')
+      .then(res => {
+        if (!res.ok) throw new Error("Couldn’t fetch header");
+        return res.text();
+      })
+      .then(html => {
+        document.getElementById('site-header').innerHTML = html;
+      })
+      .catch(err => console.error('Header load failed:', err));
+  </script>
+
+  <!-- CONTENT -->
+  i love a lot of things. i'll put stuff i love and/or i find interesting here.
+  some headers may be:
+  <ul>
+    <li><a href="/misc/ghazals.html">ghazals</a></li>
+    <li><a href="/misc/music.html">music</a></li>
+    <li><a href="/misc/lit.html">literature</a></li>
+    <li><a href="/misc/mov.html">movies</a></li>
+    <li><a href="/misc/quiz.html">quizzing</a></li>
+  </ul>
+</body>
+</html>

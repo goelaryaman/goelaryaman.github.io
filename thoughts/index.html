@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- …your meta tags, title, CSS link, etc. … -->
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <!-- Placeholder where header will go -->
+  <div id="site-header"></div>
+
+  <script>
+    // Simple JavaScript include for static HTML sites:
+    fetch('/header.html')
+      .then(res => {
+        if (!res.ok) throw new Error("Couldn’t fetch header");
+        return res.text();
+      })
+      .then(html => {
+        document.getElementById('site-header').innerHTML = html;
+      })
+      .catch(err => console.error('Header load failed:', err));
+  </script>
+
+  <!-- CONTENT -->
+
+  i'll be putting stuff related to my views on the word and the world. likely in the form of maxims. this would differ from my (hopefully) long form <a href="/blog">blogs</a>.
+
+</body>
+</html>

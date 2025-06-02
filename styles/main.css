@@ -1,0 +1,123 @@
+/* --------------------------------------------------------------------------- */
+/*   1) Header & Navigation Styles                                             */
+/* --------------------------------------------------------------------------- */
+
+header[data-astro-cid-3ef6ksr2] {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.flex-row[data-astro-cid-3ef6ksr2] {
+    display: flex;
+    flex-direction: row;
+}
+
+img[data-astro-cid-3ef6ksr2] {
+    width: 64px;
+}
+
+ul[data-astro-cid-3ef6ksr2] {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+li[data-astro-cid-3ef6ksr2] {
+    transition: font-size 0.1s;
+    font-size: 2rem;
+}
+
+li[data-astro-cid-3ef6ksr2]:not(:first-child) {
+    margin-left: 1rem;
+}
+
+a[data-astro-cid-3ef6ksr2] {
+    color: var(--eva-purple-dim);
+}
+
+a[data-astro-cid-3ef6ksr2]:hover {
+    color: var(--eva-purple);
+}
+
+
+/* --------------------------------------------------------------------------- */
+/*   2) Font‐Face Definition                                                   */
+/* --------------------------------------------------------------------------- */
+@font-face {
+    font-family: eva;
+    src: url('/fonts/eva-matisse/EVA-Matisse_Standard.ttf') format('truetype');
+}
+
+/* --------------------------------------------------------------------------- */
+/*   3) CSS Variables (Color Palette)                                          */
+/* --------------------------------------------------------------------------- */
+:root {
+    --bg_h: #1d2021;
+    --bg: #282828;
+    --bg_s: #32302f;
+    --bg1: #3c3836;
+    --bg2: #504945;
+    --bg3: #665c54;
+    --bg4: #7c6f64;
+    --fg: #fbf1c7;
+    --fg1: #ebdbb2;
+    --fg2: #d5c4a1;
+    --fg3: #bdae93;
+    --fg4: #a89984;
+    --eva-purple: #965fd4;
+    --red: #fb4934;
+    --green: #b8bb26;
+    --yellow: #fabd2f;
+    --blue: #83a598;
+    --purple: #d3869b;
+    --aqua: #8bd450;
+    --gray: #928374;
+    --orange: #fe8019;
+    --red-dim: #cc2412;
+    --green-dim: #98971a;
+    --yellow-dim: #d79921;
+    --blue-dim: #458588;
+    --purple-dim: #b16286;
+    --aqua-dim: #3f6d4e;
+    --gray-dim: #a89984;
+    --orange-dim: #d65d0e;
+    --eva-purple-dim: #734f9a;
+}
+
+/* --------------------------------------------------------------------------- */
+/*   4) Global HTML & Body Reset + Font                                        */
+/* --------------------------------------------------------------------------- */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: eva;
+    font-size: 16px;
+}
+
+body {
+    padding: 0 1rem;
+    background: var(--bg_h);
+    color: #fff;
+}
+
+/* --------------------------------------------------------------------------- */
+/*   5) Anchor & List Styles                                                   */
+/* --------------------------------------------------------------------------- */
+a {
+    color: var(--aqua);
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--blue);
+}
+
+ul li {
+    margin: 0.25rem 0;
+}

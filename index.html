@@ -1,132 +1,27 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<!--<link rel="icon" type="image/svg+xml" href="/media/favicon.svg">-->
-<meta name="viewport" content="width=device-width">
-<meta name="generator" content="Astro v5.1.1">
-<title>aryaman goel</title>
-<style>
-    header[data-astro-cid-3ef6ksr2] {
-        width: 100%;
-        padding-top: 1rem
-    }
-
-    .flex-row[data-astro-cid-3ef6ksr2] {
-        display: flex;
-        flex-direction: row
-    }
-
-    img[data-astro-cid-3ef6ksr2] {
-        width: 64px
-    }
-
-    ul[data-astro-cid-3ef6ksr2] {
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-        align-items: center;
-        padding: 0;
-        margin-left: 1rem
-    }
-
-    li[data-astro-cid-3ef6ksr2] {
-        transition: font-size .1s;
-        font-size: 2rem
-    }
-
-    li[data-astro-cid-3ef6ksr2]:not(:first-child) {
-        margin-left: 1rem
-    }
-
-    a[data-astro-cid-3ef6ksr2] {
-        color: var(--eva-purple-dim)
-    }
-
-    a[data-astro-cid-3ef6ksr2]:hover {
-        color: var(--eva-purple)
-    }
-
-
-    @font-face {
-        font-family: eva;
-        src: url(/fonts/eva-matisse/EVA-Matisse_Standard.ttf) format("truetype");
-    }
-
-    :root {
-        --bg_h: #1d2021;
-        --bg: #282828;
-        --bg_s: #32302f;
-        --bg1: #3c3836;
-        --bg2: #504945;
-        --bg3: #665c54;
-        --bg4: #7c6f64;
-        --fg: #fbf1c7;
-        --fg1: #ebdbb2;
-        --fg2: #d5c4a1;
-        --fg3: #bdae93;
-        --fg4: #a89984;
-        --eva-purple: #965fd4;
-        --red: #fb4934;
-        --green: #b8bb26;
-        --yellow: #fabd2f;
-        --blue: #83a598;
-        --purple: #d3869b;
-        --aqua:  #8bd450;
-        --gray: #928374;
-        --orange: #fe8019;
-        --red-dim: #cc2412;
-        --green-dim: #98971a;
-        --yellow-dim: #d79921;
-        --blue-dim: #458588;
-        --purple-dim: #b16286;
-        --aqua-dim: #3f6d4e;
-        --gray-dim: #a89984;
-        --orange-dim: #d65d0e;
-        --eva-purple-dim:#734f9a;
-    }
-
-    html,
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: eva;
-        font-size: 16px
-    }
-
-    body {
-        padding: 0 1rem;
-        background: var(--bg_h);
-        color: #fff
-    }
-
-    a {
-        color: var(--aqua);
-        text-decoration: none;
-        transition: color .1s
-    }
-
-    a:hover {
-        text-decoration: underline;
-        color: var(--blue)
-    }
-
-    ul li {
-        margin: .25rem 0
-    }
-</style>
-
+<html lang="en">
+<head>
+  <!-- …your meta tags, title, CSS link, etc. … -->
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
 <body>
-    <header data-astro-cid-3ef6ksr2>
-        <div class="flex-row" data-astro-cid-3ef6ksr2>
-            <!--<a href="/" data-astro-cid-3ef6ksr2><img src="/media/favicon.svg" data-astro-cid-3ef6ksr2></a>-->
-            <ul data-astro-cid-3ef6ksr2>
-                <li data-astro-cid-3ef6ksr2><a href="/" data-astro-cid-3ef6ksr2>about</a></li>
-                <li data-astro-cid-3ef6ksr2><a href="/blog" data-astro-cid-3ef6ksr2>blog</a></li>
-                <li data-astro-cid-3ef6ksr2><a href="/thoughts" data-astro-cid-3ef6ksr2>thoughts</a></li>
-                <li data-astro-cid-3ef6ksr2><a href="/misc" data-astro-cid-3ef6ksr2>misc</a></li>
+  <!-- Placeholder where header will go -->
+  <div id="site-header"></div>
 
-            </ul>
-        </div>
-    </header>
+  <script>
+    // Simple JavaScript include for static HTML sites:
+    fetch('/header.html')
+      .then(res => {
+        if (!res.ok) throw new Error("Couldn’t fetch header");
+        return res.text();
+      })
+      .then(html => {
+        document.getElementById('site-header').innerHTML = html;
+      })
+      .catch(err => console.error('Header load failed:', err));
+  </script>
+
+  <!-- CONTENT -->
     <ul>
         <li>i am senior at <a href="https://www.iitk.ac.in">iit kanpur</a> in the department of physics</li>
     <!--    <li>i was the cto and co-founder of <a href="https://www.loom.com">loom</a>:
@@ -145,3 +40,4 @@
         <li><a href="https://twitter.com/sisyphusmeow">twitter</a></li>
     </ul>
 </body>
+</html>
