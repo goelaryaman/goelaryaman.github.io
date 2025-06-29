@@ -1,2 +1,2 @@
 # goelaryaman.github.io
-my personal site
+digital archive (of sorts0
