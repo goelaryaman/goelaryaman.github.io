@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- …your meta tags, title, CSS link, etc. … -->
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <!-- Placeholder where header will go -->
+  <div id="site-header"></div>
+
+  <script>
+    // Simple JavaScript include for static HTML sites:
+    fetch('/header.html')
+      .then(res => {
+        if (!res.ok) throw new Error("Couldn’t fetch header");
+        return res.text();
+      })
+      .then(html => {
+        document.getElementById('site-header').innerHTML = html;
+      })
+      .catch(err => console.error('Header load failed:', err));
+  </script>
+
+  <!-- CONTENT -->
+  this is the place where i'll be putting up stuff which i wrote, thought or found interesting. some things may likely be in the form of maxims, or maybe some short pieces. the long form things will go to <a href="/blog">blogs</a>.
+
+</body>
+</html>
