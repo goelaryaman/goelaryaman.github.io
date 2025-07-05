@@ -1,0 +1,31 @@
+lol obviously not to be done ALL at once, but gradually; within the next like 7-8 years a mastery of these tools would be nice for me. not exactly mastery mastery, but an amazing grasp.
+- [ ] Graphs
+- [ ] Graphs as Matrices
+- [ ] Random Matrix Theory
+- [ ] Statistics
+	- [ ] in General
+	- [ ] Bayesian Inference
+- [ ]  Data Structures
+- [ ] Agentic Methods
+- [ ] Statistical Mechanics
+- [ ] Non Equilibrium Statistical Mechanics
+- [ ] Far from Equilibrium Mechanics
+- [ ] Network Theory
+- [ ] Dynamical Sytems
+- [ ] Information Theory
+- [ ] Information Geometry
+- [ ] Game Theory
+- [ ] Evolutionary Game Theory
+- [ ] Eco Evolutionary Game Theory (Goldenfeld paper was nice)
+- [ ] Ecology
+- [ ] Learning Theory 
+- [ ] Replicator wala jazz
+- [ ] renormalization groups (raju wala jazz)
+- [ ] normal forms
+- [ ] phase transitions
+- [ ] scalings
+- [ ] universality classes
+- [ ] bounded rationality type jazz
+- [ ] power laws
+- [ ] hebbian ml wala shit
+- [ ] MACHINE LEARNING AND DATA DRIVEN SCIENCES
