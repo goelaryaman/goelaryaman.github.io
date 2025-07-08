@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- …your meta tags, title, CSS link, etc. … -->
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <!-- Placeholder where header will go -->
+  <div id="site-header"></div>
+
+  <script>
+    // Simple JavaScript include for static HTML sites:
+    fetch('/header.html')
+      .then(res => {
+        if (!res.ok) throw new Error("Couldn’t fetch header");
+        return res.text();
+      })
+      .then(html => {
+        document.getElementById('site-header').innerHTML = html;
+      })
+      .catch(err => console.error('Header load failed:', err));
+  </script>
+  <h1>initiallizing and all.</h1>
+  initial version: 8 july 2025
+  last update:
+  <!-- CONTENT -->
+hi, this is me initiallizing the stuff. the 'version history' jazz is blantantly copied from <a href="http://bactra.org/notebooks/">shazili's notebooks</a>. one of the things i would love to do in the come period is to move to a 'dumb phone': one of those nokia keypad models and look what improve in the quality of life it brings. (read to combat the severe brainrot my generation has been suffering from.) the idea is to invest that idle time to maybe reading books, or consuming media— movies, shows or anime. we can only wait and watch.
+</body>
+</html>
