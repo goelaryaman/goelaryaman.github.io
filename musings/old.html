@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- …your meta tags, title, CSS link, etc. … -->
+  <link rel="stylesheet" href="/styles/main.css" />
+    <title>on timetitle>
+</head>
+<body>
+  <!-- Placeholder where header will go -->
+  <div id="site-header"></div>
+
+  <script>
+    // Simple JavaScript include for static HTML sites:
+    fetch('/header.html')
+      .then(res => {
+        if (!res.ok) throw new Error("Couldn’t fetch header");
+        return res.text();
+      })
+      .then(html => {
+        document.getElementById('site-header').innerHTML = html;
+      })
+      .catch(err => console.error('Header load failed:', err));
+  </script>
+  <h1>on time</h1>
+  initial version: 23 july 2025 <br>
+  last update: <br>
+  <br>
+  <!-- CONTENT -->
+i've been realizing that i'm growing older. not in sense of the word that makes me feel ancient, at least yet, and i'm finding myself meditating more about <a href="https://youtu.be/Qr0-7Ds79zo">time</a>. and while i've been planning to pen my meditations down in binary forms for my own sake, arqam's brilliant <a href="https://voxiitk.com/as-we-leave-2025-41/">AWL</a> prompted me to action it out. since i am hopefully not close to a last bout, i plan on this to be a living document, aging with me, testament to my being on the net. hopefully tender. 
+  <br>
+graduating to fouth year has been poignant: which says a lot in itself since it has not even started. the y25s have arrived, and that has made me feel almost ancient, almost leaving me grappling to make sense of my time left here. my heavy heart sinks; only to rise, reclaiming. it may only be through such cathartic meditation one may finally realize the ebbs and flows, the movements of time. life is a verb.
+</body>
+</html>
