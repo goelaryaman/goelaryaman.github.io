@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- …your meta tags, title, CSS link, etc. … -->
+  <title>ajab shahar</title>
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <!-- Placeholder where header will go -->
+  <div id="site-header"></div>
+
+  <script>
+    // Simple JavaScript include for static HTML sites:
+    fetch('/header.html')
+      .then(res => {
+        if (!res.ok) throw new Error("Couldn’t fetch header");
+        return res.text();
+      })
+      .then(html => {
+        document.getElementById('site-header').innerHTML = html;
+      })
+      .catch(err => console.error('Header load failed:', err));
+  </script>
+
+  <!-- CONTENT -->
+<h1>kabir, an exploration</h1>
+  started: August 5, 2025 <br>
+  last updated: August 5, 2025 <br>
+
+  i have recently been drawn to kabir's nirguni ideology. maybe i always was and this is but an assertion of that dormant part pf mine.
+<ul>
+  <li>hazari prasad dwivedi's <a href="https://dn790006.ca.archive.org/0/items/in.ernet.dli.2015.342827/2015.342827.1286-Kabir.pdf">kabir</a>.</li>
+</ul>
+
+</body>
+</html>
