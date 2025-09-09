@@ -1,2 +1,2 @@
 # goelaryaman.github.io
-digital archive (of sorts0
+digital archive (of sorts)
