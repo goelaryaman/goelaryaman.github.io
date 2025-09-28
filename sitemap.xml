@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Root -->
   <url>
     <loc>https://goelaryaman.github.io/</loc>
-    <lastmod>2025-09-29</lastmod>
-    <priority>1.00</priority>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Top-level pages -->
+  <url>
+    <loc>https://goelaryaman.github.io/index.html</loc>
   </url>
   <url>
-    <loc>https://goelaryaman.github.io/musings</loc>
-    <lastmod>2025-09-29</lastmod>
-    <priority>0.80</priority>
+    <loc>https://goelaryaman.github.io/header.html</loc>
   </url>
   <url>
-    <loc>https://goelaryaman.github.io/misc</loc>
-    <lastmod>2025-09-29</lastmod>
-    <priority>0.80</priority>
+    <loc>https://goelaryaman.github.io/personal.html</loc>
   </url>
   <url>
-    <loc>https://goelaryaman.github.io/advert</loc>
-    <lastmod>2025-09-29</lastmod>
-    <priority>0.90</priority>
+    <loc>https://goelaryaman.github.io/cs.md</loc>
   </url>
+
+  <!-- Subdirectories -->
+  <url>
+    <loc>https://goelaryaman.github.io/advert/index.html</loc>
+  </url>
+  <url>
+    <loc>https://goelaryaman.github.io/awadhi/index.html</loc>
+  </url>
+  <url>
+    <loc>https://goelaryaman.github.io/blog/template.html</loc>
+  </url>
+  <url>
+    <loc>https://goelaryaman.github.io/misc/nonsense.html</loc>
+  </url>
+  <url>
+    <loc>https://goelaryaman.github.io/musings/init.html</loc>
+  </url>
+
 </urlset>
